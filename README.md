@@ -9,14 +9,11 @@ PHP, TypeScript/Node, Ruby, Linux.
 ### Selected work
 
 
-**[xrpl-php](https://github.com/AlexanderBuzz/xrpl-php)** — XRP Ledger SDK in PHP, built by hand,
-including the parts PHP was missing: a port of Node's `Buffer`.
+**[xrpl-php](https://github.com/AlexanderBuzz/xrpl-php)** — XRP Ledger SDK for PHP.
 
-**[xrpl-ruby](https://github.com/AlexanderBuzz/xrpl-ruby)** — The same protocol a second time, in
-Ruby, AI-assisted. The suite was green while the official reference fixtures passed at 0% — they
-were in the repo but no test loaded them. Now: 26/26 transactions, 261/261 account state.
+**[xrpl-ruby](https://github.com/AlexanderBuzz/xrpl-ruby)** — XRP Ledger SDK fpr Ruby.
 
-**[LedgerDirect](https://github.com/ledger-direct)** — My own product: accept XRP Ledger payments
+**[LedgerDirect](https://github.com/ledger-direct)** — Accept XRP Ledger payments
 without an intermediary. One core, four shop integrations (Magento 2, Shopware 6, WooCommerce,
 PrestaShop. Supported by XRPL Grants, still maintained. All integrations are based on a common
 abstraction layer.
