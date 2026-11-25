@@ -1,31 +1,36 @@
-## Alexander Busse
+<img src="assets/ledgerdirect-banner.png" alt="LedgerDirect: crypto and stablecoin payments for your shop, straight to your own wallet." width="100%">
 
-Senior developer, 15+ years. I build things end to end — and lately I build them with agents.
+## Hi, I'm Alexander 👋
 
-Applied AI on top of real systems: agent skills, RAG, multi-agent workflows.
-Payments and blockchain as a domain, including a payment product of my own.
-PHP, TypeScript/Node, Ruby, Linux.
+**Payments engineer. Creator of [LedgerDirect](https://ledger-direct.com).**
 
-### Selected work
+I build the merchant side of direct payments: the part that decides when an order counts as paid, and makes sure it goes *ka-ching* in the merchant's own wallet, not in somebody else's account.
 
+---
 
-**[xrpl-php](https://github.com/AlexanderBuzz/xrpl-php)** — XRP Ledger SDK for PHP.
+### ⚡ LedgerDirect
 
-**[xrpl-ruby](https://github.com/AlexanderBuzz/xrpl-ruby)** — XRP Ledger SDK fpr Ruby.
+**An open contract for merchant payments without middlemen, and I ship the implementations too.**
+LedgerDirect works out of the box, just enter you wallet address to paid. No custodian, no secrets, no keys.
 
-**[LedgerDirect](https://github.com/ledger-direct)** — Accept XRP Ledger payments
-without an intermediary. One core, four shop integrations (Magento 2, Shopware 6, WooCommerce,
-PrestaShop. Supported by XRPL Grants, still maintained. All integrations are based on a common
-abstraction layer.
+- 🛒 **Shop plugins:** [Shopware 6](https://github.com/ledger-direct/ledger-direct-shopware6) · [WooCommerce](https://github.com/ledger-direct/ledger-direct-woocommerce) · [Magento 2](https://github.com/ledger-direct/ledger-direct-magento2) · [PrestaShop](https://github.com/ledger-direct/ledger-direct-prestashop)
+- 🌐 **Networks:** XRP Ledger (XRP, RLUSD, USDC) · Xahau (XAH) · Stellar and Interledger in the works
+- 🧱 **Under the hood:** one PHP core, one payment page for every shop, and an end-to-end harness that runs 15 payment cases
 
-**[omarchy-oligarchy-theme](https://github.com/AlexanderBuzz/omarchy-oligarchy-theme)** — Winner of
-the Omarchy theme contest. Listen to the hards-hitting theme Song 
-on [Youtube](https://www.youtube.com/watch?v=ZkQ5AHncfP0) 
-or [Suno](https://suno.com/song/2b7d9d3e-a700-4668-b85a-e2899fd6a820)
+**Try it in five minutes.** Testnet, no account, no real money:
 
-### How I work
+```bash
+git clone https://github.com/ledger-direct/ledger-direct-shopware6
+cd ledger-direct-shopware6/dev/try
+docker compose up -d --wait    # then open http://localhost:8091
+```
 
-Specification first, agents for the implementation, strict review before anything ships.
+### 🧰 Libraries I maintain
 
+- **[xrpl-php](https://github.com/AlexanderBuzz/xrpl-php)**: XRP Ledger SDK for PHP
+- **[xahau-php](https://github.com/AlexanderBuzz/xahau-php)**: Xahau client for PHP, built on xrpl-php
+- **[xrpl-ruby](https://github.com/AlexanderBuzz/xrpl-ruby)**: XRP Ledger SDK for Ruby
 
-📍 Fulda, Germany · [LinkedIn](https://www.linkedin.com/in/alexanderbusse)
+---
+
+📍 Fulda, Germany · 🌐 [ledger-direct.com](https://ledger-direct.com) · X [@LedgerDirect](https://x.com/LedgerDirect) · [LinkedIn](https://www.linkedin.com/in/alexanderbusse)
